@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="041482f9-793f-4458-ae4b-936a08e6a3a8" name="Default Changelist" comment="" />
+    <list default="true" id="041482f9-793f-4458-ae4b-936a08e6a3a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebAutomation/FacebookLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebAutomation/FacebookLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/LoginTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTest.feature" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testDefs/Users.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -48,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTest.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -65,11 +70,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/FacebookLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+            <state relative-caret-position="-153">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1337#1349#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -224,67 +228,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="qaTest4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qaTest4" type="462c0819:PsiDirectoryNode" />
+              <item name="qaTest5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qaTest5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qaTest4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qaTest4" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qaTest4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qaTest4" type="462c0819:PsiDirectoryNode" />
+              <item name="qaTest5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qaTest5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qaTest4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qaTest4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qaTest4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qaTest4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qaTest4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qaTest4" type="462c0819:PsiDirectoryNode" />
+              <item name="qaTest5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qaTest5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qaTest4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qaTest4" type="462c0819:PsiDirectoryNode" />
+              <item name="qaTest5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qaTest5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="qaTest4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qaTest4" type="462c0819:PsiDirectoryNode" />
+              <item name="qaTest5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qaTest5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testDefs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="qaTest5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qaTest5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WebAutomation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qaTest5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qaTest5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552841476638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552842936259" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -308,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: LoginTest">
+  <component name="RunManager" selected="Cucumber java.Feature: LoginTest (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -317,6 +318,24 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: LoginTest (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/LoginTest.feature" />
+      <option name="GLUE" value="WebAutomation" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="qaTest5" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: LoginTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -339,30 +358,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: users (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/users.feature" />
       <option name="GLUE" value="testDefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="qaTest1" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: users" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: users (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/users.feature" />
-      <option name="GLUE" value="testDefs" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="qa-test" />
+      <module name="qaTest5" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: users" />
       <extension name="coverage">
@@ -431,11 +432,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: LoginTest (1)" />
+        <item itemvalue="Cucumber java.Feature: users" />
         <item itemvalue="Cucumber java.Feature: LoginTest" />
         <item itemvalue="Cucumber java.Scenario: Login with valid login &amp; password" />
         <item itemvalue="JUnit.WebAutomation" />
-        <item itemvalue="Cucumber java.Feature: users (2)" />
-        <item itemvalue="Cucumber java.Feature: users (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -453,15 +454,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__LoginTest - 2019.03.17 at 17h 55m 10s.xml">
-      <configuration name="Feature: LoginTest" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__LoginTest - 2019.03.17 at 17h 55m 26s.xml">
-      <configuration name="Feature: LoginTest" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__LoginTest - 2019.03.17 at 17h 56m 09s.xml">
-      <configuration name="Feature: LoginTest" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__LoginTest - 2019.03.17 at 18h 00m 29s.xml">
       <configuration name="Feature: LoginTest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -483,6 +475,15 @@
     <history-entry file="Feature__LoginTest - 2019.03.17 at 18h 09m 43s.xml">
       <configuration name="Feature: LoginTest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__users - 2019.03.17 at 19h 01m 14s.xml">
+      <configuration name="Feature: users" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__LoginTest_(1) - 2019.03.17 at 19h 02m 05s.xml">
+      <configuration name="Feature: LoginTest (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__LoginTest_(1) - 2019.03.17 at 19h 14m 19s.xml">
+      <configuration name="Feature: LoginTest (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -495,8 +496,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1208" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33962265" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3456261" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -506,12 +508,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2788321" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2788321" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39854014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32846716" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329927" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.23795621" />
@@ -746,23 +748,8 @@
     <entry file="file://$PROJECT_DIR$/qaTest.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/users.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/FacebookLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1337#1349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -778,20 +765,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTest.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/users.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="345">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testDefs/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/FacebookLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTest.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>

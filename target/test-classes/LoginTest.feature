@@ -8,7 +8,9 @@ Feature: Facebook login
     When I enter valid "<login>" and "<password>"
     Then I should be login successfully
     Examples:
-      | login               | password |
+      | login                | password |
+      | hotbowl258@gmail.com | qwe1234  |
+
 
 
 

@@ -15,7 +15,7 @@ import java.util.List;
 public class FacebookLogin {
 
     WebDriver driver;
-    private final String STRING_NAME ="Michael Bolton";
+    private final String STRING_NAME ="Bob Bobbing";
     private final By PROFILE_NAME = By.xpath(".//*[@class = 'homeSideNav']");
 
 

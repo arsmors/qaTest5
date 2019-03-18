@@ -22,19 +22,19 @@ public class LoginTest {
 
     @When("^I enter valid \"([^\"]*)\" and \"([^\"]*)\"$")
     public void iEnterValidAnd(String login, String password) throws InterruptedException {
-        baseFunc.driver.findElement(By.id("email")).click();
-        baseFunc.driver.findElement(By.id("email")).sendKeys(login);
+        baseFunc.getElement(By.id("email")).click();
+        baseFunc.getElement(By.id("email")).sendKeys(login);
         Thread.sleep(2000);
-        baseFunc.driver.findElement(By.id("passwd")).click();
-        baseFunc.driver.findElement(By.id("passwd")).sendKeys(password);
-        baseFunc.driver.findElement(By.id("SubmitLogin")).click();
+        baseFunc.getElement(By.id("passwd")).click();
+        baseFunc.getElement(By.id("passwd")).sendKeys(password);
+        baseFunc.getElement(By.id("SubmitLogin")).click();
 
     }
 
     @Then("^I should be login successfully$")
     public void iShouldBeLoginSuccessfully() {
 
-        String signout = baseFunc.driver.findElement(LOGOUT).getText();
+        String signout = baseFunc.getElement(LOGOUT).getText();
         Assert.assertTrue("Login failed", signout.equals("Sign out"));
         baseFunc.closePage();
     }

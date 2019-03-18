@@ -8,7 +8,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class EditBio {
@@ -21,7 +20,7 @@ public class EditBio {
     private final By UPDATE = By.xpath(".//*[@title='Update']");
     private final By CITY = By.xpath("//input[@id='city']");
     private final By SAVE_BUTTON = By.xpath("//button[@id='submitAddress']");
-    private final By ADDRESS_BOX = By.xpath("//ul[@class='last_item item box']");
+    private final By ADDRESS_BOX = By.xpath("//ul[@class='last_item item box']//li");
 
     @When("^I enter \"([^\"]*)\" and \"([^\"]*)\"$")
     public void iEnterAnd(String login, String password) throws InterruptedException {
@@ -54,10 +53,11 @@ public class EditBio {
     public void newInfoIsDisplayedInMyProfileAddressBox() {
 
         Boolean isStringFound = false;
-        List<WebElement> listOfElements = new ArrayList<WebElement>();
-        listOfElements = baseFunc.driver.findElements(ADDRESS_BOX);
+        List<WebElement> listOfElements = baseFunc.driver.findElements(ADDRESS_BOX);
         for (int i = 0; i < listOfElements.size(); i++) {
-            if (listOfElements.get(i).getText().equals("Hello there")) {
+            WebElement li = listOfElements.get(i);
+            List<WebElement> spans = li.findElements(By.tagName("span"));
+            if (!spans.isEmpty() && spans.get(0).getText().equals("hello there,")) {
                 isStringFound = true;
                 break;
             }

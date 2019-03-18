@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="041482f9-793f-4458-ae4b-936a08e6a3a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebAutomation/FacebookLogin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/LoginTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WebAutomation/FacebookLogin.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -350,7 +346,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552905084036" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552905468784" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -374,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: LoginTest">
+  <component name="RunManager" selected="Cucumber java.Feature: Users">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -423,12 +419,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Users.feature" />
+      <option name="GLUE" value="testDefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="qa-test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Users" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: users (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/users.feature" />
       <option name="GLUE" value="testDefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="qaTest5" />
+      <module name="qa-test" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: users" />
       <extension name="coverage">
@@ -447,25 +461,6 @@
       <option name="GLUE" value="WebAutomation" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="qaTest5" />
-      <option name="NAME_FILTER" value="^Login with valid login \&amp; password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Login with valid login \&amp; password$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with valid login &amp; password" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Login with valid login &amp; password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/LoginTest.feature" />
-      <option name="GLUE" value="WebAutomation" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="qa-test" />
       <option name="NAME_FILTER" value="^Login with valid login \&amp; password$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Login with valid login \&amp; password$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Login with valid login &amp; password" />
@@ -506,11 +501,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: Users" />
+        <item itemvalue="Cucumber java.Feature: users (1)" />
         <item itemvalue="Cucumber java.Feature: LoginTest" />
         <item itemvalue="Cucumber java.Feature: LoginTest (1)" />
         <item itemvalue="Cucumber java.Scenario: Login with valid login &amp; password (1)" />
-        <item itemvalue="Cucumber java.Feature: users" />
-        <item itemvalue="Cucumber java.Scenario: Login with valid login &amp; password" />
       </list>
     </recent_temporary>
   </component>
@@ -570,7 +565,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1208" height="760" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25643224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -587,10 +581,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32846716" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19910179" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19910179" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.19011976" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.19011976" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32784432" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />

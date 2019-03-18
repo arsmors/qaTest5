@@ -34,8 +34,8 @@ public class LoginTest {
     @Then("^I should be login successfully$")
     public void iShouldBeLoginSuccessfully() {
 
-        String singout = baseFunc.driver.findElement(LOGOUT).getText();
-        Assert.assertTrue("Login failed", singout.equals("Sign out"));
+        String signout = baseFunc.driver.findElement(LOGOUT).getText();
+        Assert.assertTrue("Login failed", signout.equals("Sign out"));
         baseFunc.closePage();
     }
 }

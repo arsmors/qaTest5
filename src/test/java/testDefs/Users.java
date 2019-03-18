@@ -9,12 +9,10 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.apache.commons.lang3.StringUtils;
 
-import static org.hamcrest.Matchers.containsInAnyOrder;
-import static org.hamcrest.Matchers.equalTo;
-
 import java.util.Map;
 
 import static com.jayway.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
 
 public class Users {
     private Response response;
@@ -85,4 +83,6 @@ public class Users {
             jsonResponse.body(field.getKey(), equalTo(field.getValue()));
         }
     }
+
+
 }

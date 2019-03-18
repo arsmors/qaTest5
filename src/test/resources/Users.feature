@@ -18,10 +18,15 @@ Feature: Webservice automation
 
 
   Scenario: POST
+    Given request body
+      | name    | arsens |
+      | surname | moris |
     When I send POST to "https://reqres.in/api/users"
     Then the status is 201
     And response includes following body
       | name    | arsens |
-      | surname | morins |
+      | surname | moris |
     And response headers includes
-      | Server | cloudflare |
+      | Server       | cloudflare |
+      | X-Powered-By | Express    |
+

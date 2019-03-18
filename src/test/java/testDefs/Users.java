@@ -1,10 +1,11 @@
 package testDefs;
 
+import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 import com.jayway.restassured.response.ValidatableResponse;
 import com.jayway.restassured.specification.RequestSpecification;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.apache.commons.lang3.StringUtils;
@@ -64,11 +65,15 @@ public class Users {
         }
     }
 
+    @Given("^request body$")
+    public void requestBody(Map<String, String> requestFields) {
+        request = given().contentType(ContentType.JSON).body(requestFields);
+    }
+
 
     @When("^I send POST to \"([^\"]*)\"$")
     public void iSendPOSTTo(String url) {
-        String myJson = "{\"name\":\"arsens\", \"surname\":\"morins\"}";
-        response = given().body(myJson).when().post(url);
+        response = request.when().post(url);
 
     }
 
@@ -83,6 +88,4 @@ public class Users {
             jsonResponse.body(field.getKey(), equalTo(field.getValue()));
         }
     }
-
-
 }

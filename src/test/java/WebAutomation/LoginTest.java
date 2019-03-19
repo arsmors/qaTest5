@@ -38,4 +38,22 @@ public class LoginTest {
         Assert.assertTrue("Login failed", signout.equals("Sign out"));
         baseFunc.closePage();
     }
+
+    @When("^I enter invalid \"([^\"]*)\" and \"([^\"]*)\"$")
+    public void iEnterInvalidAnd(String login, String password) throws Throwable {
+        baseFunc.getElement(By.id("email")).click();
+        baseFunc.getElement(By.id("email")).sendKeys(login);
+        Thread.sleep(2000);
+        baseFunc.getElement(By.id("passwd")).click();
+        baseFunc.getElement(By.id("passwd")).sendKeys(password);
+        baseFunc.getElement(By.id("SubmitLogin")).click();
+    }
+
+    @Then("^I should not be logged in$")
+    public void iShouldNotBeLoggedIn() {
+
+        String signout = baseFunc.getElement(LOGOUT).getText();
+        Assert.assertFalse("Test failed", signout.equals("Sign out"));
+        baseFunc.closePage();
+    }
 }

@@ -5,13 +5,11 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
 public class EditBio {
-    WebDriver driver;
     BaseFunc baseFunc = new BaseFunc();
 
 

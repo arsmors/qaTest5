@@ -1,5 +1,7 @@
 package WebAutomation;
 
+import WebAutomation.Pages.BaseFunc;
+import WebAutomation.Pages.LoginPage;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

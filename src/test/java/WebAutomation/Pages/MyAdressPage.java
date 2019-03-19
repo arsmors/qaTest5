@@ -1,4 +1,4 @@
-package WebAutomation;
+package WebAutomation.Pages;
 
 import org.openqa.selenium.By;
 

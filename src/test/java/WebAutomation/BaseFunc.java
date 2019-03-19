@@ -38,6 +38,4 @@ public class BaseFunc {
     public void closePage() {
         driver.quit();
     }
-
-
 }

@@ -22,12 +22,12 @@ public class LoginTest {
 
     @When("^I enter valid \"([^\"]*)\" and \"([^\"]*)\"$")
     public void iEnterValidAnd(String login, String password) throws InterruptedException {
-        baseFunc.getElement(By.id("email")).click();
-        baseFunc.getElement(By.id("email")).sendKeys(login);
+        LoginPage loginPage = new LoginPage(baseFunc);
+
+        loginPage.enterLoginDetails(login);
         Thread.sleep(2000);
-        baseFunc.getElement(By.id("passwd")).click();
-        baseFunc.getElement(By.id("passwd")).sendKeys(password);
-        baseFunc.getElement(By.id("SubmitLogin")).click();
+        loginPage.enterPasswordDetails(password);
+        loginPage.clickSubmitButton();
 
     }
 
@@ -41,12 +41,12 @@ public class LoginTest {
 
     @When("^I enter invalid \"([^\"]*)\" and \"([^\"]*)\"$")
     public void iEnterInvalidAnd(String login, String password) throws Throwable {
-        baseFunc.getElement(By.id("email")).click();
-        baseFunc.getElement(By.id("email")).sendKeys(login);
+        LoginPage loginPage = new LoginPage(baseFunc);
+
+        loginPage.enterLoginDetails(login);
         Thread.sleep(2000);
-        baseFunc.getElement(By.id("passwd")).click();
-        baseFunc.getElement(By.id("passwd")).sendKeys(password);
-        baseFunc.getElement(By.id("SubmitLogin")).click();
+        loginPage.enterPasswordDetails(password);
+        loginPage.clickSubmitButton();
     }
 
     @Then("^I should not be logged in$")

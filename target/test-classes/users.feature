@@ -25,7 +25,7 @@ Feature: Webservice automation
     Then the status is 201
     And response includes following body
       | name    | arsens |
-      | surname | moriss |
+      | surname | moris |
     And response headers includes
       | Server       | cloudflare |
       | X-Powered-By | Express    |

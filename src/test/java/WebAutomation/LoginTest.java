@@ -7,6 +7,8 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginTest {
 
@@ -54,7 +56,11 @@ public class LoginTest {
     @Then("^I should not be logged in$")
     public void iShouldNotBeLoggedIn() {
 
+        WebDriverWait wait = new WebDriverWait(baseFunc.driver, 10);
         String signout = baseFunc.getElement(LOGOUT).getText();
+
+        wait.until(ExpectedConditions.presenceOfElementLocated((By) baseFunc.getElement(LOGOUT)));
+
         Assert.assertFalse("Test failed", signout.equals("Sign out"));
         baseFunc.closePage();
     }

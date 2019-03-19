@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class BaseFunc {
     public WebDriver driver;
@@ -18,6 +19,7 @@ public class BaseFunc {
     }
 
     public void openPage(String url) {
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
     }
 

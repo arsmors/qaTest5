@@ -10,15 +10,10 @@ import cucumber.api.java.en.When;
 public class EditBio {
     BaseFunc baseFunc = new BaseFunc();
 
-
-    private final String MY_ACCOUNT = "http://automationpractice.com/index.php?controller=my-account";
-
     @When("^I enter \"([^\"]*)\" and \"([^\"]*)\"$")
     public void iEnterAnd(String login, String password) throws InterruptedException {
-        baseFunc.openPage(MY_ACCOUNT);
-
         LoginPage loginPage = new LoginPage(baseFunc);
-
+        loginPage.openMyAccountPage();
         loginPage.enterLoginDetails(login);
         loginPage.enterPasswordDetails(password);
         loginPage.clickSubmitButton();
@@ -38,10 +33,8 @@ public class EditBio {
 
     @Then("^new info is displayed in my profile address box$")
     public void newInfoIsDisplayedInMyProfileAddressBox() {
-
         MyAdressPage myAdressPage = new MyAdressPage(baseFunc);
         myAdressPage.getStringFromAddress();
-
         baseFunc.closePage();
     }
 }

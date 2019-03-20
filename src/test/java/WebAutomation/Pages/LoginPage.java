@@ -9,6 +9,9 @@ public class LoginPage {
     BaseFunc baseFunc;
     private final By SIGNIN = By.xpath("//*[@title='Log in to your customer account']");
     private final By LOGOUT = By.xpath("//*[@title='Log me out']");
+    private final String MY_ACCOUNT = "http://automationpractice.com/index.php?controller=my-account";
+    private final String HOMEPAGE = "http://automationpractice.com";
+    private final String SIGN_PAGE = "http://automationpractice.com/index.php?controller=authentication&back=my-account";
 
     public LoginPage(BaseFunc baseFunc) {
         this.baseFunc = baseFunc;
@@ -38,6 +41,18 @@ public class LoginPage {
         WebDriverWait wait = new WebDriverWait(baseFunc.driver, 10);
         wait.until(ExpectedConditions.presenceOfElementLocated(SIGNIN));
         return baseFunc.getElement(SIGNIN).getText();
+    }
+
+    public void openMyAccountPage() {
+        baseFunc.openPage(MY_ACCOUNT);
+    }
+
+    public void openHomePage() {
+        baseFunc.openPage(HOMEPAGE);
+    }
+
+    public void openSignInPage() {
+        baseFunc.openPage(SIGN_PAGE);
     }
 
 }

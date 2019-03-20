@@ -6,14 +6,12 @@ import WebAutomation.Pages.MyAdressPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.By;
 
 public class EditBio {
     BaseFunc baseFunc = new BaseFunc();
 
 
     private final String MY_ACCOUNT = "http://automationpractice.com/index.php?controller=my-account";
-    private final By ADDRESS_BOX = By.xpath("//ul[@class='last_item item box']//li");
 
     @When("^I enter \"([^\"]*)\" and \"([^\"]*)\"$")
     public void iEnterAnd(String login, String password) throws InterruptedException {

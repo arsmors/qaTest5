@@ -30,6 +30,7 @@ public class CartTest {
     public void iVerifyThatPriceOfItemIsEqualsWithTotalPriceWithoutShipping() {
         CheckoutPage checkoutPage = new CheckoutPage(baseFunc);
         Assert.assertTrue("Prices does not match", checkoutPage.getItemPriceTotal().equals(checkoutPage.getItemPriceWithoutTax()));
+        baseFunc.closePage();
     }
 }
 

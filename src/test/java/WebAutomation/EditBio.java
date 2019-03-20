@@ -6,11 +6,7 @@ import WebAutomation.Pages.MyAdressPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 public class EditBio {
     BaseFunc baseFunc = new BaseFunc();
@@ -46,15 +42,10 @@ public class EditBio {
     @Then("^new info is displayed in my profile address box$")
     public void newInfoIsDisplayedInMyProfileAddressBox() {
 
-        Boolean isStringFound = false;
-        List<WebElement> listOfElements = baseFunc.driver.findElements(ADDRESS_BOX);
-        for (int i = 0; i < listOfElements.size(); i++) {
-            if (listOfElements.get(i).getText().contains("arsenss")) {
-                isStringFound = true;
-                break;
-            }
-        }
-        Assert.assertTrue("No String item is found", isStringFound);
+        MyAdressPage myAdressPage = new MyAdressPage(baseFunc);
+        myAdressPage.getStringFromAddress();
+
+        baseFunc.closePage();
     }
 }
 

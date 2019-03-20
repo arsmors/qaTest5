@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="041482f9-793f-4458-ae4b-936a08e6a3a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebAutomation/Pages/BaseFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebAutomation/Pages/BaseFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebAutomation/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebAutomation/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebAutomation/EditBio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebAutomation/EditBio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebAutomation/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebAutomation/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebAutomation/Pages/MyAdressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebAutomation/Pages/MyAdressPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebAutomation/EditBio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebAutomation/EditBio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebAutomation/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebAutomation/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebAutomation/Pages/MyAdressPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebAutomation/Pages/MyAdressPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTest.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -40,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/EditBio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="389">
+              <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,12 +53,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/Pages/MyAdressPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="227">
+              <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#443#444#0" expanded="true" />
                 <element signature="e#483#484#0" expanded="true" />
               </folding>
@@ -74,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+            <state relative-caret-position="347">
+              <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,13 +88,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/Pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="180">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#110#111#0" expanded="true" />
                 <element signature="e#141#142#0" expanded="true" />
                 <element signature="e#578#579#0" expanded="true" />
@@ -102,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/EditBio.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="120">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -111,10 +115,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/Pages/BaseFunc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="160">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
                 <element signature="e#1049#1050#0" expanded="true" />
               </folding>
             </state>
@@ -183,12 +188,13 @@
         <option value="$PROJECT_DIR$/src/test/java/WebAutomation/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebAutomation/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebAutomation/BaseFunc.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WebAutomation/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/EditBio.feature" />
         <option value="$PROJECT_DIR$/src/test/java/WebAutomation/MyAdressPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WebAutomation/EditBio.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebAutomation/Pages/BaseFunc.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebAutomation/Pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebAutomation/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/EditBio.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/WebAutomation/EditBio.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebAutomation/Pages/MyAdressPage.java" />
       </list>
     </option>
   </component>
@@ -434,7 +440,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553005377161" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553062618622" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -458,7 +464,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: LoginTest">
+  <component name="RunManager" selected="Cucumber java.Feature: EditBio">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -544,15 +550,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login with valid login &amp; password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Login with invalid login &amp; password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/LoginTest.feature" />
       <option name="GLUE" value="WebAutomation" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="qa-test" />
-      <option name="NAME_FILTER" value="^Login with valid login \&amp; password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Login with valid login \&amp; password$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login with valid login &amp; password" />
+      <option name="NAME_FILTER" value="^Login with invalid login \&amp; password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Login with invalid login \&amp; password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login with invalid login &amp; password" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -590,11 +596,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: LoginTest" />
         <item itemvalue="Cucumber java.Feature: EditBio" />
+        <item itemvalue="Cucumber java.Scenario: Login with invalid login &amp; password" />
+        <item itemvalue="Cucumber java.Feature: LoginTest" />
         <item itemvalue="Cucumber java.Feature: Users" />
         <item itemvalue="Cucumber java.Scenario: GET" />
-        <item itemvalue="Cucumber java.Scenario: Login with valid login &amp; password" />
       </list>
     </recent_temporary>
   </component>
@@ -612,34 +618,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__EditBio - 2019.03.19 at 09h 54m 07s.xml">
+    <history-entry file="Feature__EditBio - 2019.03.19 at 11h 17m 48s.xml">
       <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__EditBio - 2019.03.19 at 09h 55m 56s.xml">
-      <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__EditBio - 2019.03.19 at 10h 21m 25s.xml">
-      <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__EditBio - 2019.03.19 at 10h 22m 26s.xml">
-      <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__EditBio - 2019.03.19 at 10h 23m 27s.xml">
-      <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__EditBio - 2019.03.19 at 10h 23m 54s.xml">
-      <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__EditBio - 2019.03.19 at 10h 59m 46s.xml">
-      <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__EditBio - 2019.03.19 at 11h 01m 48s.xml">
-      <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__LoginTest - 2019.03.19 at 11h 10m 56s.xml">
+    <history-entry file="Feature__LoginTest - 2019.03.19 at 16h 20m 40s.xml">
       <configuration name="Feature: LoginTest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__EditBio - 2019.03.19 at 11h 17m 48s.xml">
+    <history-entry file="Feature__LoginTest - 2019.03.19 at 16h 23m 32s.xml">
+      <configuration name="Feature: LoginTest" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__LoginTest - 2019.03.20 at 07h 43m 00s.xml">
+      <configuration name="Feature: LoginTest" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Login_with_invalid_login_&amp;_password - 2019.03.20 at 07h 43m 50s.xml">
+      <configuration name="Scenario: Login with invalid login &amp; password" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__EditBio - 2019.03.20 at 08h 04m 59s.xml">
+      <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__EditBio - 2019.03.20 at 08h 05m 23s.xml">
+      <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__EditBio - 2019.03.20 at 08h 05m 56s.xml">
+      <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__EditBio - 2019.03.20 at 08h 09m 37s.xml">
+      <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__EditBio - 2019.03.20 at 08h 11m 16s.xml">
       <configuration name="Feature: EditBio" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -666,7 +672,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32784432" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20808384" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20808384" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38173652" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -674,7 +680,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.14071856" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329927" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.19011976" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.19011976" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32784432" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -733,11 +739,17 @@
         <watch expression="listOfElements.get(0).getText()" language="JAVA" />
         <watch expression="listOfElements.get(i).getText()" />
         <watch expression="spans.get(0).getText()" />
+        <watch expression="listOfElements.get(i).getText()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>listOfElements.get(i).getText()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>listOfElements.get(0).getText()</expression-string>
         <language-id>JAVA</language-id>
@@ -875,18 +887,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0-sources.jar!/cucumber/runtime/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/model/User.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0-sources.jar!/org/openqa/selenium/WebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/BaseFunc.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/LoginPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/MyAdressPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/testDefs/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -897,28 +923,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/HomePage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/BaseFunc.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/LoginTest.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/LoginPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/Pages/BaseFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/Pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/EditBio.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/MyAdressPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/LoginTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.4.0/cucumber-core-2.4.0-sources.jar!/cucumber/runtime/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        <state relative-caret-position="284">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/EditBio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -927,53 +981,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/Pages/MyAdressPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="227">
+          <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#443#444#0" expanded="true" />
             <element signature="e#483#484#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/EditBio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testDefs/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/Pages/BaseFunc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebAutomation/Pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
           </folding>
         </state>
       </provider>

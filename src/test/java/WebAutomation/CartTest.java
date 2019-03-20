@@ -12,7 +12,7 @@ import org.junit.Assert;
 public class CartTest {
     BaseFunc baseFunc = new BaseFunc();
     HomePage homePage = new HomePage(baseFunc);
-    LoginPage loginPage = new LoginPage(baseFunc)
+    LoginPage loginPage = new LoginPage(baseFunc);
 
     @Given("^I go to webshop homepage Woman section$")
     public void iGoToWebshopHomepageWomanSection() {

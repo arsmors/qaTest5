@@ -14,6 +14,7 @@ public class LoginTest {
     private final String HOME_PAGE = "http://www.automationpractice.com";
     private final String SIGN_PAGE = "http://automationpractice.com/index.php?controller=authentication&back=my-account";
     private final By LOGOUT = By.xpath("//*[@title='Log me out']");
+    private final By SIGNIN = By.xpath("//*[@title='Log in to your customer account']");
 
 
     @Given("^Open Chrome and go to Homepage$")
@@ -55,11 +56,11 @@ public class LoginTest {
     public void iShouldNotBeLoggedIn() {
 
 //        WebDriverWait wait = new WebDriverWait(baseFunc.driver, 10);
-        String signout = baseFunc.getElement(LOGOUT).getText();
+        String sigin = baseFunc.getElement(SIGNIN).getText();
 
-//        wait.until(ExpectedConditions.presenceOfElementLocated((By) baseFunc.getElement(LOGOUT)));
+//        wait.until(ExpectedConditions.presenceOfElementLocated((By) baseFunc.getElement(SIGNIN)));
 
-        Assert.assertFalse("Test failed", signout.equals("Sign out"));
+        Assert.assertTrue("Test failed", sigin.equals("Sign in"));
         baseFunc.closePage();
     }
 }

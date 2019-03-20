@@ -20,6 +20,4 @@ public class CheckoutPage {
     public String getItemPriceTotal() {
         return baseFunc.getElement(TOTALPRICE).getText();
     }
-
-
 }

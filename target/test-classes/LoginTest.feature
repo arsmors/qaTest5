@@ -19,8 +19,8 @@ Feature: TEST login
     Examples:
       | login                | password |
       | hotbowl258@gmail.com |          |
-#      |                      | qwe1234  |
-#      | hotbowl258@gmail.com | qqqqqq   |
+      |                      | qwe1234  |
+      | hotbowl258@gmail.com | qqqqqq   |
 
 
 

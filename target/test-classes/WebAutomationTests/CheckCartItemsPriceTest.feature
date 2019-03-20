@@ -1,7 +1,7 @@
 # new feature
 # Tags: optional
 
-Feature: Checkout test
+Feature: Checkout test for web-store
 
   Scenario: Cart price check
     Given I go to webshop homepage Woman section

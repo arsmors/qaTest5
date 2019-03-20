@@ -1,7 +1,7 @@
 # new feature
 # Tags: optional
 
-Feature: TEST login
+Feature: Login verifications for correct & incrorrect credentials
 
   Scenario Outline: Login with valid login & password
     Given Open Chrome and go to Homepage

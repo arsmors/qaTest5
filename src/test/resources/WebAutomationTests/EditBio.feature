@@ -1,7 +1,7 @@
 # new feature
 # Tags: optional
 
-Feature: A description
+Feature: Verify that user's bio is updated
 
   Scenario: Change bio in my profile
     When I enter "hotbowl258@gmail.com" and "pass123"

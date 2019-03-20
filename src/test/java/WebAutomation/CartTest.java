@@ -23,7 +23,6 @@ public class CartTest {
     public void addAnyProductToCart() {
         homePage.addItemToCart(1);
         homePage.proceedToCheckout();
-
     }
 
     @Then("^i verify that price of item is equals with total price without shipping$")

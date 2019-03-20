@@ -20,7 +20,6 @@ public class EditBio {
         LoginPage loginPage = new LoginPage(baseFunc);
 
         loginPage.enterLoginDetails(login);
-        Thread.sleep(2000);
         loginPage.enterPasswordDetails(password);
         loginPage.clickSubmitButton();
     }

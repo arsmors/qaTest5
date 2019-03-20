@@ -6,29 +6,22 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 
 public class LoginTest {
 
     BaseFunc baseFunc = new BaseFunc();
-    private final String HOME_PAGE = "http://www.automationpractice.com";
+    LoginPage loginPage = new LoginPage(baseFunc);
     private final String SIGN_PAGE = "http://automationpractice.com/index.php?controller=authentication&back=my-account";
-    private final By LOGOUT = By.xpath("//*[@title='Log me out']");
-    private final By SIGNIN = By.xpath("//*[@title='Log in to your customer account']");
-
 
     @Given("^Open Chrome and go to Homepage$")
     public void openChromeAndGoToHomepage() {
-        baseFunc.openPage(HOME_PAGE);
         baseFunc.openPage(SIGN_PAGE);
     }
 
     @When("^I enter valid \"([^\"]*)\" and \"([^\"]*)\"$")
     public void iEnterValidAnd(String login, String password) throws InterruptedException {
-        LoginPage loginPage = new LoginPage(baseFunc);
 
         loginPage.enterLoginDetails(login);
-        Thread.sleep(2000);
         loginPage.enterPasswordDetails(password);
         loginPage.clickSubmitButton();
 
@@ -37,17 +30,15 @@ public class LoginTest {
     @Then("^I should be login successfully$")
     public void iShouldBeLoginSuccessfully() {
 
-        String signout = baseFunc.getElement(LOGOUT).getText();
+        String signout = loginPage.getLogOut();
         Assert.assertTrue("Login failed", signout.equals("Sign out"));
         baseFunc.closePage();
     }
 
     @When("^I enter invalid \"([^\"]*)\" and \"([^\"]*)\"$")
     public void iEnterInvalidAnd(String login, String password) throws Throwable {
-        LoginPage loginPage = new LoginPage(baseFunc);
 
         loginPage.enterLoginDetails(login);
-        Thread.sleep(2000);
         loginPage.enterPasswordDetails(password);
         loginPage.clickSubmitButton();
     }
@@ -55,12 +46,8 @@ public class LoginTest {
     @Then("^I should not be logged in$")
     public void iShouldNotBeLoggedIn() {
 
-//        WebDriverWait wait = new WebDriverWait(baseFunc.driver, 10);
-        String sigin = baseFunc.getElement(SIGNIN).getText();
-
-//        wait.until(ExpectedConditions.presenceOfElementLocated((By) baseFunc.getElement(SIGNIN)));
-
-        Assert.assertTrue("Test failed", sigin.equals("Sign in"));
+        String signin = loginPage.getSignIn();
+        Assert.assertTrue("Test failed", signin.equals("Sign in"));
         baseFunc.closePage();
     }
 }

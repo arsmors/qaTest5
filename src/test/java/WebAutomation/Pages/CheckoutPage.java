@@ -10,8 +10,8 @@ public class CheckoutPage {
         this.baseFunc = baseFunc;
     }
 
-    private final By TOTALPRICEWITHOUTTAX = By.xpath("//*[@id=\"total_price_without_tax\"]");
-    private final By TOTALPRICE = By.xpath("//*[@id=\"total_price_container\"]/span");
+    private final By TOTALPRICEWITHOUTTAX = By.id("total_price_without_tax");
+    private final By TOTALPRICE = By.id("total_price_container");
 
     public String getItemPriceWithoutTax() {
         return baseFunc.getElement(TOTALPRICEWITHOUTTAX).getText();

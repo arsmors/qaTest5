@@ -26,11 +26,11 @@ public class HomePage {
         }
     }
 
-    public void addItemToCart(Integer id) {
+    public void addItemToCart(int id) {
         getItems(id).click();
     }
 
-    private WebElement getItems(Integer id) {
+    private WebElement getItems(int id) {
         List<WebElement> items = baseFunc.getElements(ADDTOCART);
         return items.get(id);
     }

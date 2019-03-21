@@ -7,28 +7,31 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class LoginPage {
 
     BaseFunc baseFunc;
-    private final By SIGNIN = By.xpath("//*[@title='Log in to your customer account']");
-    private final By LOGOUT = By.xpath("//*[@title='Log me out']");
-    private final String MY_ACCOUNT = "http://automationpractice.com/index.php?controller=my-account";
+    private final By SIGNIN = By.xpath("//*[@class = \"login\"]");
+    private final By LOGOUT = By.xpath("//*[@class = \"logout\"]");
     private final String HOMEPAGE = "http://automationpractice.com";
-    private final String SIGN_PAGE = "http://automationpractice.com/index.php?controller=authentication&back=my-account";
+    private String my_account = "/index.php?controller=my-account";
+    private String sign_page = "/index.php?controller=authentication&back=my-account";
+    private final By EMAIL = By.id("email");
+    private final By PASSWORD = By.id("passwd");
+    private final By SUMBIT = By.id("SubmitLogin");
 
     public LoginPage(BaseFunc baseFunc) {
         this.baseFunc = baseFunc;
     }
 
     public void enterLoginDetails(String login) {
-        baseFunc.getElement(By.id("email")).click();
-        baseFunc.getElement(By.id("email")).sendKeys(login);
+        baseFunc.getElement(EMAIL).click();
+        baseFunc.getElement(EMAIL).sendKeys(login);
     }
 
     public void enterPasswordDetails(String password) {
-        baseFunc.getElement(By.id("passwd")).click();
-        baseFunc.getElement(By.id("passwd")).sendKeys(password);
+        baseFunc.getElement(PASSWORD).click();
+        baseFunc.getElement(PASSWORD).sendKeys(password);
     }
 
     public void clickSubmitButton() {
-        baseFunc.getElement(By.id("SubmitLogin")).click();
+        baseFunc.getElement(SUMBIT).click();
     }
 
     public String getLogOut() {
@@ -44,7 +47,7 @@ public class LoginPage {
     }
 
     public void openMyAccountPage() {
-        baseFunc.openPage(MY_ACCOUNT);
+        baseFunc.openPage(HOMEPAGE+my_account);
     }
 
     public void openHomePage() {
@@ -52,7 +55,7 @@ public class LoginPage {
     }
 
     public void openSignInPage() {
-        baseFunc.openPage(SIGN_PAGE);
+        baseFunc.openPage(HOMEPAGE+sign_page);
     }
 
 }

@@ -12,6 +12,8 @@ public class LoginPage {
     private final String HOMEPAGE = "http://automationpractice.com";
     private String my_account = "/index.php?controller=my-account";
     private String sign_page = "/index.php?controller=authentication&back=my-account";
+    private final String SIGN_PAGE = HOMEPAGE + sign_page;
+    private final String MY_ACCOUNT = HOMEPAGE + my_account;
     private final By EMAIL = By.id("email");
     private final By PASSWORD = By.id("passwd");
     private final By SUMBIT = By.id("SubmitLogin");
@@ -47,7 +49,7 @@ public class LoginPage {
     }
 
     public void openMyAccountPage() {
-        baseFunc.openPage(HOMEPAGE+my_account);
+        baseFunc.openPage(MY_ACCOUNT);
     }
 
     public void openHomePage() {
@@ -55,7 +57,7 @@ public class LoginPage {
     }
 
     public void openSignInPage() {
-        baseFunc.openPage(HOMEPAGE+sign_page);
+        baseFunc.openPage(SIGN_PAGE);
     }
 
 }

@@ -11,8 +11,8 @@ public class MyAdressPage {
     BaseFunc baseFunc;
     private final By ADDRESSES = By.xpath(".//*[@title='Addresses']");
     private final By UPDATE = By.xpath(".//*[@title='Update']");
-    private final By FIRSTNAME = By.xpath("//input[@id='firstname']");
-    private final By SAVE_BUTTON = By.xpath("//button[@id='submitAddress']");
+    private final By FIRSTNAME = By.id("firstname");
+    private final By SAVE_BUTTON = By.id("submitAddress");
     private final By ADDRESS_BOX = By.xpath("//ul[@class='last_item item box']//li");
 
     public MyAdressPage(BaseFunc baseFunc) {

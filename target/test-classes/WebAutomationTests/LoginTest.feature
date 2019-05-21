@@ -4,6 +4,7 @@
 Feature: Login verifications for correct & incrorrect credentials
 
   Scenario Outline: Login with valid login & password
+
     Given Open Chrome and go to Homepage
     When I enter valid "<login>" and "<password>"
     Then I should be login successfully
@@ -14,6 +15,7 @@ Feature: Login verifications for correct & incrorrect credentials
 
   Scenario Outline: Login with invalid login & password
     Given Open Chrome and go to Homepage
+    #TODO: datatable here
     When I enter invalid "<login>" and "<password>"
     Then I should not be logged in
     Examples:

@@ -12,6 +12,8 @@ public class LoginTest {
     BaseFunc baseFunc = new BaseFunc();
     LoginPage loginPage = new LoginPage(baseFunc);
 
+
+    //TODO: remove chrome stuff from step
     @Given("^Open Chrome and go to Homepage$")
     public void openChromeAndGoToHomepage() {
         loginPage.openSignInPage();
@@ -28,6 +30,8 @@ public class LoginTest {
     public void iShouldBeLoginSuccessfully() {
         String signout = loginPage.getLogOut();
         Assert.assertTrue("Login failed", signout.equals("Sign out"));
+
+        //TODO: Move all closePage stuff to After Hook
         baseFunc.closePage();
     }
 

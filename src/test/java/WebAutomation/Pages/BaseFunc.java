@@ -15,19 +15,27 @@ public class BaseFunc {
 
     public BaseFunc() {
         System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
+
+        //TODO: cross browser support - to support FireFox as well
         driver = new ChromeDriver();
     }
 
     public void openPage(String url) {
+
+        //TODO: move to somewhere common
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
     }
 
+
+    //TODO: if needed 0 elements - update this
     public List<WebElement> getElements(By locator) {
         Assert.assertFalse("No elements found", driver.findElements(locator).isEmpty());
         return driver.findElements(locator);
     }
 
+
+    //TODO: update this or say to me why you should NOT be updated
     public WebElement getElement(By locator) {
         try {
             return driver.findElement(locator);

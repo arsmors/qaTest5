@@ -68,6 +68,8 @@ public class Users {
     @Given("^request body$")
     public void requestBody(Map<String, String> requestFields) {
         request = given().contentType(ContentType.JSON).body(requestFields);
+
+        //TODO: do some examples of serialization/deserialization with POJO
     }
 
 
@@ -77,6 +79,7 @@ public class Users {
 
     }
 
+    //TODO: duplicate
     @Then("^the status is (\\d+)")
     public void theStatusIs(int statusCode) throws Throwable {
         jsonResponse = response.then().statusCode(statusCode);

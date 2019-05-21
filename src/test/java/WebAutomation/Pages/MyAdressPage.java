@@ -35,12 +35,15 @@ public class MyAdressPage {
         boolean isStringFound = false;
         List<WebElement> listOfElements = baseFunc.getElements(ADDRESS_BOX);
         for (int i = 0; i < listOfElements.size(); i++) {
+
+            //TODO: move "arsenss" somewhere :)
             if (listOfElements.get(i).getText().contains("arsenss")) {
                 isStringFound = true;
                 break;
             }
         }
 
+        //TODO: do other asserts somewhere. For example assertEquals
         Assert.assertTrue("No String item is found", isStringFound);
     }
 }
